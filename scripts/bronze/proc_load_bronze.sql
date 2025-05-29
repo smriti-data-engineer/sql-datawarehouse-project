@@ -112,5 +112,3 @@ BEGIN
     RAISE NOTICE 'Total Time Taken: %', duration;
 END;
 $$;
-
-CALL bronze.load_bronze_tables()
